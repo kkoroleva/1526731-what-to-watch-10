@@ -4,7 +4,9 @@ function PlayerPage(): JSX.Element {
       <video
         src='#'
         className='player__video'
-        poster='img/player-poster.jpg'></video>
+        poster='img/player-poster.jpg'
+      >
+      </video>
 
       <button type='button' className='player__exit'>Exit</button>
 
@@ -14,7 +16,9 @@ function PlayerPage(): JSX.Element {
             <progress
               className='player__progress'
               value='30'
-              max='100'></progress>
+              max='100'
+            >
+            </progress>
             <div className='player__toggler'>Toggler</div>
           </div>
           <div className='player__time-value'>1:30:29</div>
